@@ -1,0 +1,26 @@
+mat-card {
+    box-shadow: none;
+    width: 95%;
+    margin: auto;
+}
+
+#infoHeader {
+    margin: 2.5% auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#logo {
+    width: auto;
+    height: 95%;
+}
+
+@media only screen and (max-width: 400px) {
+    #logo {
+        height: 90%;
+    }
+    .tawhidInfo {
+        font-size: 3vw;
+        line-height: 10px;
+    }
+}
